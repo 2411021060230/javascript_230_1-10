@@ -10,8 +10,8 @@ let a=3,b=8,c=5; console.log(Math.max(a,b,c));
 5. Reverse String
 let s='hello'; console.log(s.split('').reverse().join(''));
 
-6. Palindromelet s = "madam";
-
+6. Palindrome
+let s = "madam";
 // Reverse the string
 let reversed = s.split("").reverse().join("");
 
