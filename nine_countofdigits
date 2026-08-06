@@ -1,0 +1,7 @@
+let n = 12345;
+
+// Convert number to string
+let str = n.toString();
+
+// Find length of string
+console.log("Number of digits:", str.length);
