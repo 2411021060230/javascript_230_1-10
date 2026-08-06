@@ -1,0 +1,18 @@
+let msg = "HELLO";
+let result = "";
+
+for (let i = 0; i < msg.length; i++) {
+    let code = msg.charCodeAt(i);
+
+    // Shift each letter by 3
+    code = code + 3;
+
+    // If it goes beyond 'Z', start again from 'A'
+    if (code > 90) {
+        code = code - 26;
+    }
+
+    result = result + String.fromCharCode(code);
+}
+
+console.log(result);
